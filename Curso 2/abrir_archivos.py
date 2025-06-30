@@ -1,5 +1,5 @@
 try:
-    stream = open("archivos\hola.txt", "rt")
+    stream = open("C:/Users/Esteban/Desktop/Curso/Curso-Python/Curso 2/archivos/hola.txt", "rt")
     stream.close()
 except Exception as exc:
     print("No se puede abrir el archivo:", exc)
@@ -7,7 +7,7 @@ except Exception as exc:
 import errno
 
 try:
-    s = open("archivos\hola.txt", "rt")
+    s = open("archivos/hola.txt", "rt")
     s.close()
 except Exception as exc:
     if exc.errno == errno.ENOENT:

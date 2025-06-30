@@ -2,7 +2,7 @@ from os import strerror
 
 try:
     contador = 0
-    stream = open('archivos\hola.txt', "rt")
+    stream = open('C:/Users/Esteban/Desktop/Curso/Curso-Python/Curso 2/archivos/hola.txt', "rt")
     caracteres = stream.read(1)
     while caracteres != '':
         print(caracteres, end='')
@@ -18,7 +18,7 @@ from os import strerror
 
 try:
     character_counter = line_counter = 0
-    stream = open('archivos\hola.txt', 'rt')
+    stream = open('C:/Users/Esteban/Desktop/Curso/Curso-Python/Curso 2/archivos/hola.txt', 'rt')
     line = stream.readline()
     while line != '':
         line_counter += 1

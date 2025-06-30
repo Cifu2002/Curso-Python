@@ -1,2 +1,2 @@
 import math
-dir(math) #mostrar todos los modulos
+print(dir(math))

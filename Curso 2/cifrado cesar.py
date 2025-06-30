@@ -1,4 +1,4 @@
-# Cifrado César.
+# Cifrado César
 text = input("Ingresa tu mensaje: ")
 cipher = ''
 for char in text:
@@ -11,7 +11,7 @@ for char in text:
     cipher += chr(code)
 
 print(cipher)
-# Cifrado César - descifrando un mensaje.
+# Cifrado César - descifrando un mensaje
 cipher = input('Ingresa tu criptograma: ')
 text = ''
 for char in cipher:
